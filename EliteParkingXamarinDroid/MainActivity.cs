@@ -6,6 +6,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using System.Json;
 
 namespace EliteParkingXamarinDroid
 {
@@ -20,8 +21,21 @@ namespace EliteParkingXamarinDroid
 			// Set our view from the "main" layout resource
 			SetContentView (Resource.Layout.Main);
 
-			// Get our button from the layout resource,
-			// and attach an event to it
+			EditText cedula = FindViewById<EditText> (Resource.Id.INcedula);
+			EditText pass = FindViewById<EditText> (Resource.Id.INPass);
+			Button iniciar = FindViewById<Button>(Resource.Id.inicio);
+
+			iniciar.Click += async (sender, e) => {
+
+				string url = "http://eliteparkingapp.com?cedula=" +
+					cedula.Text +
+					"?pass=" +
+					pass.Text;
+
+				System.Console.WriteLine(url); 
+				//JsonValue json = await FetchWeatherAsync (url);
+			};
+
 			Button registrar = FindViewById<Button> (Resource.Id.registrar);
 			
 			registrar.Click += (sender, e) =>

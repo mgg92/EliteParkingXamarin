@@ -14,16 +14,18 @@ public final class R {
         public static final int icon=0x7f020000;
     }
     public static final class id {
-        public static final int Email=0x7f050000;
-        public static final int Pass=0x7f050001;
+        public static final int INPass=0x7f050001;
+        public static final int INcedula=0x7f050000;
+        public static final int button1=0x7f05000b;
         public static final int editText1=0x7f050004;
-        public static final int editText2=0x7f050005;
-        public static final int editText3=0x7f050006;
-        public static final int editText4=0x7f050007;
-        public static final int editText5=0x7f050008;
-        public static final int editText6=0x7f050009;
+        public static final int editText2=0x7f050009;
+        public static final int editText3=0x7f05000a;
         public static final int inicio=0x7f050002;
+        public static final int papellido=0x7f050007;
+        public static final int pnombre=0x7f050005;
         public static final int registrar=0x7f050003;
+        public static final int sapellido=0x7f050008;
+        public static final int snombre=0x7f050006;
     }
     public static final class layout {
         public static final int main=0x7f030000;

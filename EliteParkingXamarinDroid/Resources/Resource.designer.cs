@@ -60,35 +60,41 @@ namespace EliteParkingXamarinDroid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050000
-			public const int Email = 2131034112;
-			
 			// aapt resource value: 0x7f050001
-			public const int Pass = 2131034113;
+			public const int INPass = 2131034113;
+			
+			// aapt resource value: 0x7f050000
+			public const int INcedula = 2131034112;
+			
+			// aapt resource value: 0x7f05000b
+			public const int button1 = 2131034123;
 			
 			// aapt resource value: 0x7f050004
 			public const int editText1 = 2131034116;
 			
-			// aapt resource value: 0x7f050005
-			public const int editText2 = 2131034117;
-			
-			// aapt resource value: 0x7f050006
-			public const int editText3 = 2131034118;
-			
-			// aapt resource value: 0x7f050007
-			public const int editText4 = 2131034119;
-			
-			// aapt resource value: 0x7f050008
-			public const int editText5 = 2131034120;
-			
 			// aapt resource value: 0x7f050009
-			public const int editText6 = 2131034121;
+			public const int editText2 = 2131034121;
+			
+			// aapt resource value: 0x7f05000a
+			public const int editText3 = 2131034122;
 			
 			// aapt resource value: 0x7f050002
 			public const int inicio = 2131034114;
 			
+			// aapt resource value: 0x7f050007
+			public const int papellido = 2131034119;
+			
+			// aapt resource value: 0x7f050005
+			public const int pnombre = 2131034117;
+			
 			// aapt resource value: 0x7f050003
 			public const int registrar = 2131034115;
+			
+			// aapt resource value: 0x7f050008
+			public const int sapellido = 2131034120;
+			
+			// aapt resource value: 0x7f050006
+			public const int snombre = 2131034118;
 			
 			static Id()
 			{
