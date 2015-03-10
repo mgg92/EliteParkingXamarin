@@ -1,0 +1,2 @@
+EliteParkingXamarinDroid.MainActivity;eliteparkingxamarindroid.MainActivity
+EliteParkingXamarinDroid.RegistroActivity;eliteparkingxamarindroid.RegistroActivity
